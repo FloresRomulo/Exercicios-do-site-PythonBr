@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="ex01.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div id='res'>Login: 
+            <p>Nome: <input type="text" name="nome" id="nome"></p>
+
+            <p>Idade: <input type="number" name="idade" id="idade"></p>
+
+            <p>Salário: <input type="number" name="salario" id="salario"></p>
+
+            <p>Sexo: <select name="sexo" id="sexo"> 
+                <option value="masculino">Masculino</option>
+                <option value="feminio">Feminino</option>
+            </select></p>
+
+            <p>Estado Civil: <select name="estado" id="estado"> 
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+            </select></p>
+
+            <input type="button" value='Entrar' onclick="enviar()">
+        </div>
+    </section>
+
+    <footer>
+        <p> &copy; RomuloFlores</p>
+    </footer>
+    <script src="ex01.js"></script>
+</body>
+</html>
